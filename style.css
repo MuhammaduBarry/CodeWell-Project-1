@@ -55,17 +55,17 @@ header {
     }
 }
 
-@media (max-width:1090px) {
+@media (max-width:1150px) {
     .btn--colapse--head {
         margin-left: 0 auto;
     }
 }
 
-@media (max-width:1090px) {
+@media (max-width:1150px) {
 
     .btn--colapse,
     .btn--colapse--head {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         display: flex;
         justify-content: space-between;
         color: #fff;
@@ -75,7 +75,8 @@ header {
 
 @media (max-width:600px) {
     .header__text-h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-top: 8px;
     }
 }
 
@@ -108,7 +109,7 @@ p {
 }
 
 /* nav media query */
-@media (max-width:1090px) {
+@media (max-width:1105px) {
 
     .list__cstm,
     .custom-btn {
@@ -116,7 +117,7 @@ p {
     }
 }
 
-@media (max-width:1090px) {
+@media (max-width:1105px) {
     .btn--colapse {
         display: block;
     }
@@ -124,7 +125,7 @@ p {
 
 @media (max-width:1090px) {
     .test__body {
-        padding: 3rem 4rem;
+        padding: 2rem 2rem;
     }
 
 }
