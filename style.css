@@ -46,6 +46,17 @@ header {
     display: inline-block;
 }
 
+/* media body  */
+@media only screen and (orientation: landscape) {
+    html .container__color {
+        background-color: var(--clr-primary--900);
+    }
+
+    html .container__colortwo {
+        background-color: var(--clr-primary-700);
+    }
+}
+
 /* media header */
 @media (max-width:900px) {
     .header__media {
@@ -231,7 +242,8 @@ img {
     font-family: var(--ff-font);
 }
 
-.custom-btn {
+.custom-btn,
+.custom-btn2 {
     padding: .5rem 1rem;
     background-color: #ffff33;
     border-color: #ffff33;
